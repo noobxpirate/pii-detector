@@ -1,7 +1,3 @@
-Here's a well-structured `README.md` with emojis and clear instructions for your project:
-
----
-
 # 🔐 PII Detection and Document Analyzer
 
 A comprehensive tool for detecting Personally Identifiable Information (PII) from documents such as Aadhaar cards, PAN cards, and driving licenses. This project uses OCR and NER (Natural Entity Recognition) to extract key details and display them on an enhanced dashboard. 🖥️
@@ -94,5 +90,3 @@ We welcome contributions to enhance the tool! Feel free to submit pull requests 
 ## License 📜
 
 This project is licensed under the MIT License.
-
----
