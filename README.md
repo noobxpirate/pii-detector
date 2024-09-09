@@ -38,7 +38,7 @@ Also, make sure you have [Tesseract OCR](https://github.com/tesseract-ocr/tesser
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repository/PII-Detect.git
+   git clone https://github.com/noobxpirate/pii-detector/.git
    cd PII-Detect
    ```
 
