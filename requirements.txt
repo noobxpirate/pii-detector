@@ -1,1 +1,7 @@
+Flask==2.3.2
+pytesseract==0.3.9
+spacy==3.5.2
+opencv-python==4.5.5.64
+pyzbar==0.1.8
+Pillow==9.3.0
 

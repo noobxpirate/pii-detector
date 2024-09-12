@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Processing Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Document Processing Dashboard</h1>
 
+    <h2>Extracted Text:</h2>
+    <pre>{{ extracted_text }}</pre>
+
+    <h2>Identifiers:</h2>
+    <ul>
+        <li>Aadhaar: {{ identifiers.aadhaar }}</li>
+        <li>PAN: {{ identifiers.pan }}</li>
+        <li>Driving License: {{ identifiers.driving_license }}</li>
+    </ul>
+
+    <h2>Extracted Entities:</h2>
+    <ul>
+        <li>Name: {{ entities.name }}</li>
+        <li>Address: {{ entities.address }}</li>
+        <li>Date of Birth: {{ entities.date_of_birth }}</li>
+    </ul>
+
+    <h2>QR Code Data:</h2>
+    <pre>{{ qr_data }}</pre>
+
+    <img src="{{ file_path }}" alt="Uploaded Document">
+
+</body>
+</html>
